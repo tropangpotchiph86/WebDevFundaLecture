@@ -21,27 +21,17 @@
       <p>Use the .input-group-text class to style the specified help text.</p>
 
       <form action="/action_page.php">
-        <div class="input-group mb-3">
-          <span class="input-group-text">@</span>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Username"
-            name="usrname"
-          />
+        <div>
+          <span>@</span>
+          <input type="text" placeholder="Username" name="usrname" />
         </div>
 
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Your Email"
-            name="email"
-          />
-          <span class="input-group-text">@example.com</span>
+        <div>
+          <input type="text" placeholder="Your Email" name="email" />
+          <span>@example.com</span>
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
 
@@ -53,17 +43,17 @@
         for large inputs groups:
       </p>
 
-      <div class="input-group input-group-sm mb-3">
-        <span class="input-group-text">Small</span>
-        <input type="text" class="form-control" />
+      <div>
+        <span>Small</span>
+        <input type="text" />
       </div>
-      <div class="input-group mb-3">
-        <span class="input-group-text">Default</span>
-        <input type="text" class="form-control" />
+      <div>
+        <span>Default</span>
+        <input type="text" />
       </div>
-      <div class="input-group input-group-lg mb-3">
-        <span class="input-group-text">Large</span>
-        <input type="text" class="form-control" />
+      <div>
+        <span>Large</span>
+        <input type="text" />
       </div>
     </div>
 
@@ -72,18 +62,18 @@
       <p>Add multiple inputs or addons:</p>
 
       <!-- Multiple inputs -->
-      <div class="input-group mb-3">
-        <span class="input-group-text">Person</span>
-        <input type="text" class="form-control" placeholder="First Name" />
-        <input type="text" class="form-control" placeholder="Last Name" />
+      <div>
+        <span>Person</span>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
       </div>
 
       <!-- Multiple addons / help text -->
-      <div class="input-group mb-3">
-        <span class="input-group-text">One</span>
-        <span class="input-group-text">Two</span>
-        <span class="input-group-text">Three</span>
-        <input type="text" class="form-control" />
+      <div>
+        <span>One</span>
+        <span>Two</span>
+        <span>Three</span>
+        <input type="text" />
       </div>
     </div>
 
@@ -92,18 +82,18 @@
       <p>You can also use checkboxes or radio buttons instead of text:</p>
 
       <!-- Multiple inputs -->
-      <div class="input-group mb-3">
-        <div class="input-group-text">
+      <div>
+        <div>
           <input type="checkbox" />
         </div>
-        <input type="text" class="form-control" placeholder="Some text" />
+        <input type="text" placeholder="Some text" />
       </div>
 
-      <div class="input-group mb-3">
-        <div class="input-group-text">
+      <div>
+        <div>
           <input type="radio" />
         </div>
-        <input type="text" class="form-control" mt-0 />
+        <input type="text" mt-0 />
       </div>
     </div>
 
@@ -111,26 +101,20 @@
     <div class="container mt-3">
       <h3>Input Group Buttons</h3>
 
-      <div class="input-group mb-3 mt-3">
-        <button class="btn btn-outline-primary" type="button">
-          Basic Button
-        </button>
-        <input type="text" class="form-control" placeholder="Some text" />
+      <div>
+        <button type="button">Basic Button</button>
+        <input type="text" placeholder="Some text" />
       </div>
 
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Search" />
-        <button class="btn btn-success" type="submit">Go</button>
+      <div>
+        <input type="text" placeholder="Search" />
+        <button type="submit">Go</button>
       </div>
 
-      <div class="input-group mb-3">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Something clever.."
-        />
-        <button class="btn btn-primary" type="button">OK</button>
-        <button class="btn btn-danger" type="button">Cancel</button>
+      <div>
+        <input type="text" placeholder="Something clever.." />
+        <button type="button">OK</button>
+        <button type="button">Cancel</button>
       </div>
     </div>
 
